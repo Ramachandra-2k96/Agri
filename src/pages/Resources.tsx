@@ -32,36 +32,36 @@ export function Resources() {
 
   return (
     <div className="pt-16">
-      <section className="bg-green-50 py-20">
-        <div className="max-w-7xl mx-auto px-4">
+      <section className="py-20 bg-green-50">
+        <div className="px-4 mx-auto max-w-7xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center mb-16"
+            className="mb-16 text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">
               Learning Resources
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto text-xl text-gray-600">
               Access our comprehensive collection of farming guides, tutorials, and tools
               to enhance your agricultural knowledge and practices.
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid gap-8 md:grid-cols-2">
             {resources.map((resource, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4"
+                className="flex items-start p-6 space-x-4 bg-white shadow-lg rounded-xl"
               >
-                <resource.icon className="w-8 h-8 text-green-600 flex-shrink-0" />
+                <resource.icon className="flex-shrink-0 w-8 h-8 text-green-600" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">{resource.title}</h3>
-                  <p className="text-gray-600 mb-4">{resource.description}</p>
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                  <h3 className="mb-2 text-xl font-semibold">{resource.title}</h3>
+                  <p className="mb-4 text-gray-600">{resource.description}</p>
+                  <span className="inline-flex items-center px-3 py-1 text-sm font-medium text-green-800 bg-green-100 rounded-full">
                     {resource.type}
                   </span>
                 </div>
@@ -73,14 +73,20 @@ export function Resources() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="mt-12 bg-white p-8 rounded-xl shadow-lg"
+            className="p-8 mt-12 bg-white shadow-lg rounded-xl"
           >
-            <h2 className="text-2xl font-bold mb-6">Featured Content</h2>
-            <div className="aspect-video rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center">
-              <p className="text-gray-500">Featured video content placeholder</p>
+            <h2 className="mb-6 text-2xl font-bold">Featured Content</h2>
+            <div className="flex items-center justify-center overflow-hidden bg-gray-100 rounded-lg aspect-video">
+            <video
+                src="src/assets/videos/video.mp4" 
+                className="object-cover w-full h-full"
+                controls
+                autoPlay
+                muted
+              />
             </div>
             <div className="mt-4">
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="mb-2 text-xl font-semibold">
                 Introduction to Smart Farming
               </h3>
               <p className="text-gray-600">

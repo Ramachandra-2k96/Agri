@@ -15,13 +15,12 @@ const navItems = [
   { icon: Sprout, label: 'Soil Analysis', path: '/dashboard/soil' },
   { icon: Cloud, label: 'Weather', path: '/dashboard/weather' },
   { icon: Users, label: 'Community', path: '/dashboard/community' },
-  { icon: BookOpen, label: 'Resources', path: '/dashboard/resources' },
-  { icon: Settings, label: 'Settings', path: '/dashboard/settings' },
+  { icon: BookOpen, label: 'market', path: '/dashboard/market' },
 ];
 
 export function DashboardSidebar() {
   return (
-    <div className="w-64 bg-white h-screen fixed left-0 top-0 border-r border-gray-200">
+    <div className="fixed top-0 left-0 w-64 h-screen bg-white border-r border-gray-200">
       <div className="p-6">
         <NavLink to="/dashboard" className="flex items-center space-x-2">
           <Sprout className="w-8 h-8 text-green-600" />
@@ -47,7 +46,7 @@ export function DashboardSidebar() {
       </nav>
 
       <div className="absolute bottom-0 w-full p-6">
-        <button className="flex items-center space-x-3 text-gray-700 hover:text-red-600 transition-colors w-full">
+        <button className="flex items-center w-full space-x-3 text-gray-700 transition-colors hover:text-red-600">
           <LogOut className="w-5 h-5" />
           <span>Logout</span>
         </button>

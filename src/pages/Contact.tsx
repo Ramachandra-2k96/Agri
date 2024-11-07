@@ -5,32 +5,32 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 export function Contact() {
   return (
     <div className="pt-16">
-      <section className="bg-green-50 py-20">
-        <div className="max-w-7xl mx-auto px-4">
+      <section className="py-20 bg-green-50">
+        <div className="px-4 mx-auto max-w-7xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center mb-16"
+            className="mb-16 text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">
               Get in Touch
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto text-xl text-gray-600">
               Have questions about our platform? We're here to help you get started
               with AI-powered farming.
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid gap-12 md:grid-cols-2">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              className="bg-white p-8 rounded-xl shadow-lg"
+              className="p-8 bg-white shadow-lg rounded-xl"
             >
-              <h2 className="text-2xl font-bold mb-6">Send us a Message</h2>
+              <h2 className="mb-6 text-2xl font-bold">Send us a Message</h2>
               <form className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block mb-2 text-sm font-medium text-gray-700">
                     Name
                   </label>
                   <input
@@ -40,7 +40,7 @@ export function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block mb-2 text-sm font-medium text-gray-700">
                     Email
                   </label>
                   <input
@@ -50,7 +50,7 @@ export function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block mb-2 text-sm font-medium text-gray-700">
                     Message
                   </label>
                   <textarea
@@ -61,7 +61,7 @@ export function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                  className="w-full py-3 font-semibold text-white transition-colors bg-green-600 rounded-lg hover:bg-green-700"
                 >
                   Send Message
                 </button>
@@ -73,31 +73,31 @@ export function Contact() {
               whileInView={{ opacity: 1, x: 0 }}
               className="space-y-8"
             >
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <MapPin className="w-6 h-6 text-green-600 mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Our Location</h3>
+              <div className="p-6 bg-white shadow-lg rounded-xl">
+                <MapPin className="w-6 h-6 mb-4 text-green-600" />
+                <h3 className="mb-2 text-lg font-semibold">Our Location</h3>
                 <p className="text-gray-600">
-                  123 Tech Park, Innovation District
+                  312 Tech Park, Innovation District
                   <br />
                   Bangalore, Karnataka 560001
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <Phone className="w-6 h-6 text-green-600 mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Phone</h3>
-                <p className="text-gray-600">+91 (800) 123-4567</p>
+              <div className="p-6 bg-white shadow-lg rounded-xl">
+                <Phone className="w-6 h-6 mb-4 text-green-600" />
+                <h3 className="mb-2 text-lg font-semibold">Phone</h3>
+                <p className="text-gray-600">+91 8899007766</p>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <Mail className="w-6 h-6 text-green-600 mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Email</h3>
-                <p className="text-gray-600">support@agritechai.com</p>
+              <div className="p-6 bg-white shadow-lg rounded-xl">
+                <Mail className="w-6 h-6 mb-4 text-green-600" />
+                <h3 className="mb-2 text-lg font-semibold">Email</h3>
+                <p className="text-gray-600">support@agrinext.com</p>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <Clock className="w-6 h-6 text-green-600 mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Business Hours</h3>
+              <div className="p-6 bg-white shadow-lg rounded-xl">
+                <Clock className="w-6 h-6 mb-4 text-green-600" />
+                <h3 className="mb-2 text-lg font-semibold">Business Hours</h3>
                 <p className="text-gray-600">
                   Monday - Friday: 9:00 AM - 6:00 PM
                   <br />
