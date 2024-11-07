@@ -111,7 +111,7 @@ export function Hero() {
       <VideoModal
         isOpen={isVideoOpen}
         onClose={() => setIsVideoOpen(false)}
-        videoSrc="src/assets/videos/video.mp4" // Change this to your local or remote video file
+        videoSrc="/assets/videos/video.mp4" // Change this to your local or remote video file
       />
     </div>
   );

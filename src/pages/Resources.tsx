@@ -78,7 +78,7 @@ export function Resources() {
             <h2 className="mb-6 text-2xl font-bold">Featured Content</h2>
             <div className="flex items-center justify-center overflow-hidden bg-gray-100 rounded-lg aspect-video">
             <video
-                src="src/assets/videos/video.mp4" 
+                src="/assets/videos/video.mp4" 
                 className="object-cover w-full h-full"
                 controls
                 autoPlay
