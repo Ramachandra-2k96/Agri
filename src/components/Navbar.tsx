@@ -91,7 +91,7 @@ export const Navbar: React.FC = () => {
         {isMenuOpen && (
           <div className="mt-2 bg-white border-t md:hidden">
             <div className="flex flex-col px-4 py-4 space-y-2">
-              {['About', 'Community', 'Resources', 'Contact'].map((item) => (
+              {['About', 'Community', 'Resources', 'Contact','Dashboard'].map((item) => (
                 <NavLink
                   key={item}
                   to={`/${item.toLowerCase()}`}
