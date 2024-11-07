@@ -12,17 +12,17 @@ export function About() {
 
   const team = [
     {
-      name: 'Dr. Sarah Chen',
+      name: 'Ramachandra Udupa',
       role: 'Chief AI Officer',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQFLLYIsrFzgGg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722771656884?e=1736380800&v=beta&t=NhY5NbffyXPjPQAilF1SQ1RsMGjBUiyNKgWs86HIl_k',
     },
     {
-      name: 'Michael Rodriguez',
-      role: 'Head of Agriculture',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+      name: 'Akshay Kumar Hegde',
+      role: 'CEO and Founder of AgriNext',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQE640uWUbHvDw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727702923081?e=1736380800&v=beta&t=7kYqufHxbayz-5vW8gV2WAjc8ASeNm18b1W9p1YyK_o',
     },
     {
-      name: 'Emma Thompson',
+      name: '',
       role: 'Lead Data Scientist',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80',
     },
