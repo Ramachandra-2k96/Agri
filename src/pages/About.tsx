@@ -22,7 +22,7 @@ export function About() {
       image: 'https://media.licdn.com/dms/image/v2/D5603AQE640uWUbHvDw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727702923081?e=1736380800&v=beta&t=7kYqufHxbayz-5vW8gV2WAjc8ASeNm18b1W9p1YyK_o',
     },
     {
-      name: '',
+      name: 'Neha Mahesh',
       role: 'Lead Data Scientist',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80',
     },
