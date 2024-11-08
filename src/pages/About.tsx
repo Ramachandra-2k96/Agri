@@ -24,7 +24,7 @@ export function About() {
     {
       name: 'Neha Mahesh',
       role: 'Lead Data Scientist',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80',
+      image: '/assets/videos/WhatsApp Image 2024-11-08 at 7.29.25 AM.jpeg',
     },
   ];
 
